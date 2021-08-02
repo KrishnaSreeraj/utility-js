@@ -10,4 +10,7 @@ describe('Tail', () => {
         expect(tail([2, 5, 7, 9])).toEqual([7,9]);
     });
 
+    it('Tail of [] is []', () => {
+        expect(tail([])).toEqual([]);
+    });
 })
